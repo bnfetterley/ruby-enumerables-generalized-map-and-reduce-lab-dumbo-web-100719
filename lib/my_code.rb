@@ -21,7 +21,7 @@ end
 
   while i < source_array.size do 
     total = yield(total, source_array[i])
-    i +=
+    i += 1
    end
    total
 end
